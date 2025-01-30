@@ -18,7 +18,7 @@ class Var(object):
     name = str(getenv('name', 'bisal_file2link_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '2485431904'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002347677032'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002347677032'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
