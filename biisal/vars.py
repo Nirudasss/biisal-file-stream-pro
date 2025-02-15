@@ -14,7 +14,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '10660564'))
     API_HASH = str(getenv('API_HASH', '527e6297989f4e7cda5091f5bf41d0e4'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7239597095:AAEISDjMXXH5kE-bx9R6sUnms4toZWQuTEw'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7897737110:AAFCcX9YsAaP-SrI0qbqJA9yzu0gj_1sjpY'))
     name = str(getenv('name', 'bisal_file2link_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
